@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: aqua;
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .container .mario {
+        max-width: 50%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .container .botao-trailer {
+        background-color: #263238;
+    }
+}
